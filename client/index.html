@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OG MetaBot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Metabot</h1>
+        <!-- sidebar  -->
+        <div id="mySidebar" class="sidebar">
+          <a class="closeBtn">&times;</a>
+          <a href="nested/about.html">About</a>
+        </div>
+        <div id="mainNav">
+          <button class="openBtn">&#9776;</button>
+        </div>
+
+        <!-- ligt/dark mode toggle -->
+        <div class="toggle-btn" id="lightDarkButton">
+          <button class="switchBtn">&#x1F4A1;</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <p>
+        I'd be happy to help or just chat with you. Ask me anything you want to know about the dataset.
+      </p>
+      <div id="app">
+        <div id="chat_container"></div>
+        <form>
+          <textarea
+            name="prompt"
+            rows="1"
+            cols="1"
+            placeholder="Ask Metabot..."
+          ></textarea>
+          <button type="submit">
+            <img src="./assets/send.svg" />
+          </button>
+        </form>
+      </div>
+    </main>
+    <footer class="footer absolutePos">
+      <p>
+        Made by Reporting Platform Team
+      </p>
+      <p>Akshay,Ashish P,Ratnesh,Vinayak</p>
+    </footer>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
