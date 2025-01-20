@@ -1,1 +1,1 @@
-Add OPEN_API_KEY as env variable to run server
+Add OPEN_API_KEY in env variable and run the server
