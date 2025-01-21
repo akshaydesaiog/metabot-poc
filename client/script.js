@@ -74,7 +74,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // fetch data from server -> bot's response
-  const response = await fetch("http://localhost:5172/", {
+  const response = await fetch("http://localhost:5172/ask", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
